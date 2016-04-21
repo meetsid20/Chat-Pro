@@ -21,7 +21,7 @@ body{
 		<div class="navbar-brand" href="#"><span class="glyphicon glyphicon-phone"></span> ChatRoom</div>
 	</div>
 	<ul class="nav navbar-nav navbar-right">
-	<li><a href="#"><span class="glyphicon glyphicon-list-alt"></span> Sign Up </a></li>
+	<li><a href="SignUp.php"><span class="glyphicon glyphicon-list-alt"></span> Sign Up </a></li>
 	</ul>
 </div>
 </nav>
@@ -46,7 +46,7 @@ body{
 	<input class="form-control" id="password" type="password" name="password">
 	</div>
 	<div class="form-group">
-	<input class="form-control btn-primary" id="login" type="submit" text="Login">
+	<button class="form-control btn-primary" id="login" type="submit">Login</button>
 	</div>
 	</form>
 </div>
