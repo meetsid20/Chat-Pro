@@ -8,9 +8,11 @@
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <title>default.html</title>
 <style>
-body{
-	background-color:black;
+.formpanel{
 	padding:0;
+}
+body{
+background-color:black;        
 }
 </style>
 </head>
@@ -28,7 +30,7 @@ body{
 <br><br><br><br><br><br>
 <div class="row">
 <div class="col-sm-4 col-xs-1"></div>
-<div class="col-sm-4 col-xs-10 panel panel-default" style="background-color:white"><div class="panel-heading">Login</div><div class="panel-body">
+<div class="col-sm-4 col-xs-10 formpanel panel panel-default" style="background-color:white"><div class="panel-heading">Login</div><div class="panel-body">
 	
 	<form class="login-form" action="login_validate.php" method="post">
 	<?php 

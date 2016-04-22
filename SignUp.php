@@ -9,8 +9,10 @@
 <style>
 body{
 	background-color:black;
-	padding:0;
 }
+    .formpanel{
+        padding:0;
+    }
 </style>
 </head>
 <body>
@@ -27,7 +29,7 @@ body{
 <br><br><br><br><br><br>
 <div class="row">
 <div class="col-sm-4 col-xs-1"></div>
-<div class="col-sm-4 col-xs-10 panel panel-default" >
+<div class="col-sm-4 col-xs-10 formpanel panel panel-default" >
 <div class="panel-heading">Sign Up</div>
 <div class="panel-body">
 <form action="process_signup.php" method="post">
@@ -76,11 +78,6 @@ body{
 </div>
 <input class="btn btn-primary col-sm-12 btn-large" type="submit" value="Submit">
 </form>
-
-
-
-
-
 </div>
 </div>
 </div>
