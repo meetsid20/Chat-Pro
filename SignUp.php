@@ -30,7 +30,15 @@ body{
 <div class="col-sm-4 col-xs-10 panel panel-default" >
 <div class="panel-heading">Sign Up</div>
 <div class="panel-body">
-<form action="signup.jsp" method="post">
+<form action="process_signup.php" method="post">
+<?php
+    session_start();
+    if(isset($_SESSION["alert"]))
+    {
+        echo '<div class="alert alert-warning">'.$_SESSION["alert"].'</div>';
+        unset($_SESSION["alert"]);
+    }
+?>
 <div class="row">
 <div class="form-group col-sm-6">
 <label for="fname"> First Name : </label>
