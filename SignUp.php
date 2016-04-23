@@ -19,11 +19,18 @@ body{
 <nav class="navbar navbar-inverse navbar-fixed-top">
 <div class="container-fluid">
 	<div class="navbar-header">
-		<div class="navbar-brand" href="#"><span class="glyphicon glyphicon-phone"></span> ChatRoom</div>
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+        </button>
+        <div class="navbar-brand" href="#"><span class="glyphicon glyphicon-phone"></span> ChatRoom</div>
 	</div>
-	<ul class="nav navbar-nav navbar-right">
+    <div class="collapse navbar-collapse" id=myNavbar>
+    <ul class="nav navbar-nav navbar-right">
 	<li><a href="default.php"><span class="glyphicon glyphicon-log-in"></span> Login </a></li>
 	</ul>
+    </div>
 </div>
 </nav>
 <br><br><br><br><br><br>
