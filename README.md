@@ -1,1 +1,2 @@
-# Chat-Pro
+# ChatRoom
+An ajax based chat application.
